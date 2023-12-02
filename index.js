@@ -70,6 +70,10 @@ app.post('/criar', (requisicao, resposta) => {
         resposta.redirect('/')
     })
 })
+
+app.get('/ativas', (requisao, resposta) => {
+    
+})
    
 
 app.get('/', (requisicao, resposta) => {
